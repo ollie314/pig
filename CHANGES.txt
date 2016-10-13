@@ -24,6 +24,8 @@ INCOMPATIBLE CHANGES
  
 IMPROVEMENTS
 
+PIG-5020: Give file location for loadcaster related warning and errors (knoguchi)
+
 PIG-5027: Improve SAMPLE Scalar Expression Example (icook via knoguchi)
 
 PIG-5023: Documentation for BagToTuple (icook via knoguchi)
@@ -45,6 +47,16 @@ PIG-2768: Fix org.apache.hadoop.conf.Configuration deprecation warnings for Hado
 OPTIMIZATIONS
  
 BUG FIXES
+
+PIG-5038: Pig Limit_2 e2e test failed with sort check (Konstantin_Harasov via rohini)
+
+PIG-5039: TestTypeCheckingValidatorNewLP.TestTypeCheckingValidatorNewLP is failing (nkollar via knoguchi)
+
+PIG-3087: Refactor TestLogicalPlanBuilder to be meaningful (szita via daijy)
+
+PIG-4976: streaming job with store clause stuck if the script fail (daijy via knoguchi)
+
+PIG-5035: killJob API does not work in Tez (zjffdu via rohini)
 
 PIG-5032: Output record stats in Tez is wrong when there is split followed by union (rohini)
 
@@ -102,6 +114,8 @@ PIG-4945: Update document for conflicting macro params (knoguchi via daijy)
 OPTIMIZATIONS
 
 BUG FIXES
+
+PIG-4951: Rename PIG_ATS_ENABLED constant (szita via daijy)
 
 PIG-4947: LOAD with HBaseStorage using a mix of pure wildcards and prefixed wildcards results
   in empty maps for the pure wildcarded column families (daijy)
